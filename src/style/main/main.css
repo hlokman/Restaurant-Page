@@ -28,7 +28,7 @@ body {
     height: 50vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(238, 238, 238);
+    /*background-color: rgb(238, 238, 238);*/
 }
 
 .map {
@@ -37,6 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 15px;
+    background-color: rgb(238, 238, 238);
 }
 .mapImg {
     width: 80%;
@@ -50,6 +51,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: rgb(238, 238, 238);
     /*border: 2px solid purple;*/
 }
 ul {

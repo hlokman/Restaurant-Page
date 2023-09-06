@@ -3,7 +3,7 @@ import instaImg from '../style/main/icons8-instagram.svg';
 import fbImg from '../style/main/icons8-facebook.svg';
 import mapImg from '../style/main/237000142.png';
 
-const renderMain = (() => {
+const renderMain = () => {
     const content = document.querySelector('#content');
 
     //Create the top part div
@@ -129,7 +129,7 @@ const renderMain = (() => {
     li7.setAttribute('style','color: rgb(161, 0, 0)');
     li7.textContent='Sunday: CLOSED';
     ul.appendChild(li7);
-})();
+};
 
 export {renderMain};
 
