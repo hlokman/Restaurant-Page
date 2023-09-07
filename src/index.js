@@ -4,5 +4,5 @@ import { renderMain } from './components/mainMenu';
 import { renderMenu } from './components/menu';
 
 //renderMain();
-renderMenu
+renderMenu()
 console.log('this is a test')
