@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Fancy';
+    src: url(./miamanueva.ttf);
+}
+
+@font-face {
+    font-family: 'Simple';
+    src: url(./bivoac-reguler.regular.otf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Simple';
+}
+
+#header {
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: rgb(0, 0, 20);
+    
+}
+.home,
+.menu,
+.contact {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 20px;
+    color: rgb(255,214,98);
+    font-family: 'Simple';
+    
+
+}
