@@ -12,6 +12,13 @@ body {
     margin: 0;
     font-family: 'Simple';
 }
+#container {
+    height: 100vh;
+    /*border: 2px solid rgb(21, 0, 255);*/
+    display: flex;
+    flex-direction: column;
+    /*overflow: auto;*/
+}
 
 #header {
     height: 7%;
@@ -34,3 +41,101 @@ body {
     
 
 }
+
+#contactInfos {
+    height: 93%;
+    /*position: relative;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.leftContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+.leftContact > img {
+    height: 65%;
+    width: 50%;
+}
+
+.rightContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+.rightContact > h1 {
+    font-size: 40px;
+}
+/*#contactInfos::before {
+    content: "";
+    background-image: url(./Array\ 24mm.jpeg);
+    background-size: cover;                    
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input, label {
+    display: block;
+}
+.names {
+    display: flex;
+}
+.first_name {
+    margin-right: 40px;
+}
+
+input {
+    background-color: rgb(243, 243, 243);
+    border: 2px solid rgb(0, 0, 20);
+}
+input#email {
+    width: 449px;
+    height: 22px;
+}
+input#first_name,
+input#last_name {
+    height: 22px;
+    width: 200px;
+}
+textarea#message {
+    width: 449px;
+    height: 200px;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid rgb(0, 0, 20);
+}
+
+
+.submitBtn {
+    background: none;
+    border: none;
+    color: inherit;
+    font-family: 'Simple';
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/*
+textarea#message {
+    width: 449px;
+    height: 200px;
+    background-color: rgb(243, 243, 243);
+}
+
+<textarea id="message" class="textarea" name="message" required></textarea>
+*/
