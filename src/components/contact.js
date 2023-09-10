@@ -1,6 +1,6 @@
 import contactImg from '../style/contact/cozy-and-comfy-restaurant-ideas.jpg'
 
-const renderContact = (()=> {
+const renderContact = ()=> {
     const content = document.querySelector('#content');
 
     const container = document.createElement('div');
@@ -92,8 +92,8 @@ const renderContact = (()=> {
 
 
 
-    console.log('test renderContact');
-})();
+    //console.log('test renderContact');
+};
 
 export {renderContact}
 

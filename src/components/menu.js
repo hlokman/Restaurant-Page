@@ -249,7 +249,7 @@ const renderMenu = () => {
      menu3.appendChild(myIcon3);
 
 
-    console.log('test renderMenu')
+    //console.log('test renderMenu')
 };
 
 export {renderMenu};
