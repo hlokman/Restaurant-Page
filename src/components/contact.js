@@ -89,10 +89,6 @@ const renderContact = ()=> {
     li3.innerHTML='<label for="message">Message:</label>' + '<textarea id="message" class="textarea" name="message" required></textarea>';
     //submit
     form.innerHTML += '<button type="submit" class="submitBtn">Submit</button>';
-
-
-
-    //console.log('test renderContact');
 };
 
 export {renderContact}

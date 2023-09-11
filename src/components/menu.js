@@ -247,9 +247,6 @@ const renderMenu = () => {
      const myIcon3 = new Image();
      myIcon3.src = menu3Img;
      menu3.appendChild(myIcon3);
-
-
-    //console.log('test renderMenu')
 };
 
 export {renderMenu};

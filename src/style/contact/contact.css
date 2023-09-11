@@ -14,10 +14,8 @@ body {
 }
 #container {
     height: 100vh;
-    /*border: 2px solid rgb(21, 0, 255);*/
     display: flex;
     flex-direction: column;
-    /*overflow: auto;*/
 }
 
 #header {
@@ -42,7 +40,6 @@ body {
 
 #contactInfos {
     height: 93%;
-    /*position: relative;*/
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -75,19 +72,6 @@ p > span {
 .rightContact > h1 {
     font-size: 40px;
 }
-/*#contactInfos::before {
-    content: "";
-    background-image: url(./Array\ 24mm.jpeg);
-    background-size: cover;                    
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
-}*/
 
 form {
     display: flex;
@@ -135,13 +119,3 @@ textarea#message {
     font-weight: 900;
     color: rgb(255, 194, 26);
 }
-
-/*
-textarea#message {
-    width: 449px;
-    height: 200px;
-    background-color: rgb(243, 243, 243);
-}
-
-<textarea id="message" class="textarea" name="message" required></textarea>
-*/
