@@ -24,8 +24,6 @@ content.addEventListener('click', (e) => {
         content.innerHTML='';
         renderContact();
     }
-
-    console.log(e.target.className)
 })
 
-console.log('this is a test')
+
